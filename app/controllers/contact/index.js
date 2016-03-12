@@ -1,7 +1,7 @@
 module.exports = function(req, res) {
   
-  var title = 'contact form';
+  var subject = 'Blogueras techie contact form';
   res.render('contact', {
-    title: title
+    title: subject
   });
 };
